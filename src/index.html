@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="script.js"></script>
+    <title>Kurtis Classroom</title>
+  </head>
+  <body>
+    <!-- Navbar-->
+    <nav
+      class="flex mt-10 mx-[2rem] items-center h-16 xm:h-max xm:mt-4 xm:mx-2"
+    >
+      <div class="container flex ml-28 sm:ml-10 xm:ml-0">
+        <img
+          class="w-10 mr-3 sm:w-6 xm:w-5"
+          src="../img/landing/Logo.svg"
+          alt="logo"
+        />
+        <h1 class="font-vibur text-5xl sm:text-3xl xm:text-2xl">
+          Kurtis Classroom
+        </h1>
+      </div>
+
+      <div class="container flex justify-end mr-40 sm:mr-10 xm:mr-2 xm:w-max">
+        <button
+          class="mr-4 w-28 h-10 bg-blue-700 hover:bg-blue-500 font-mont text-white font-bold shadow-xl rounded md:w-24 md:h-8 sm:w-18 sm:h-8 xm:text-xs xm:w-16 xm:h-6 xm:mr-2"
+        >
+          Sign Up
+        </button>
+        <button
+          class="w-28 h-10 font-mont border border-solid border-2 text-gray-400 hover:bg-blue-500 hover:text-white font-bold rounded md:w-24 md:h-8 sm:w-18 sm:h-8 xm:text-xs xm:w-16 xm:h-6 xm:mr-2"
+        >
+          Log in
+        </button>
+      </div>
+    </nav>
+
+    <!--Hero-->
+    <section
+      id="hero"
+      class="flex items-center my-12 h-96 mx-[2rem] h-[75vh] sm:flex-col sm:justify-center sm:text-center sm:my-10 xm:mx-0 xm:flex-col xm:h-max"
+    >
+      <!--Left item-->
+      <div
+        class="container ml-[10.5rem] sm:m-auto xm:mx-[2rem] xm:text-center sm:text-center"
+      >
+        <h1
+          class="text-7xl font-bold text-[#2F281E] font-mont leading-[1.3] w-max sm:text-7xl xm:text-5xl xm:w-auto sm:w-auto"
+          data-aos="fade-up"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-sine"
+        >
+          Make
+        </h1>
+        <h1
+          class="text-7xl font-bold text-[#2F281E] sm:text-7xl xm:text-5xl"
+          data-aos="fade-up"
+          data-aos-delay="500"
+          data-aos-easing="ease-in-sine"
+        >
+          learning fun!
+        </h1>
+        <p
+          class="py-10 text-xl text-[#544837] font-[4.625rem] w-max tracking-wider leading-0 md:text-lg md:py-8 sm:text-normal sm:py-4 xm:w-auto xm:text-sm sm:w-auto"
+          data-aos="fade-up"
+          data-aos-delay="700"
+          data-aos-easing="ease-in-sine"
+        >
+          Any subject, in any language, on any <br />
+          device, for all ages!
+        </p>
+        <button
+          class="w-60 h-11 bg-blue-500 hover:bg-blue-700 font-mont text-white text-sm font-bold rounded sm:h-10 sm:w-40 xm:w-32 xm:h-8 xm:text-xs"
+          data-aos="fade-up"
+          data-aos-delay="700"
+          data-aos-easing="ease-in-sine"
+        >
+          Sign up for free
+        </button>
+        <p
+          class="mt-8 font-bold sm:text-xs xm:font-semibold"
+          data-aos="fade-up"
+          data-aos-delay="900"
+          data-aos-easing="ease-in-sine"
+        >
+          Or download the app:
+        </p>
+        <div
+          class="old flex mt-2 sm:justify-center xm:justify-center"
+          data-aos="fade-up"
+          data-aos-delay="900"
+          data-aos-easing="ease-in-sine"
+        >
+          <a href="#">
+            <img
+              class="mr-2 rounded hover:pointer sm:w-28 xm:w-24"
+              src="../img/landing/Old landingapple.png"
+              alt="old landing"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="rounded hover:pointer sm:w-28 xm:w-24"
+              src="../img/landing/Old landingplaystore.png"
+              alt="old"
+            />
+          </a>
+        </div>
+      </div>
+      <!--Rightitem-->
+      <div
+        class="mr-[10rem] sm:mr-[0rem] xm:mr-0"
+        data-aos="fade-up"
+        data-aos-delay="900"
+        data-aos-easing="ease-in-sine"
+      >
+        <img
+          class="w-[600px] sm:w-[500px] xm:w-[400px] xm:p-10 sm: mt-10 sm:p-10"
+          src="../img/landing/img1.png"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!--Who is Kurtis for?-->
+    <section id="about" class="h-max bg-[#F2F2F2]" data-aos="fade-right">
+      <h1
+        class="justify-center text-center pt-10 font-bold font-mont text-[2.25rem] sm:text-[2.5rem] xm:text-[2rem]"
+      >
+        Who is Kurtis for?
+      </h1>
+      <div
+        class="flex justify-center m-auto bg-[#3A5AFF] w-32 h-2 sm:w-40 xm:w-24"
+      ></div>
+
+      <div
+        class="flex my-12 w-max m-auto sm:w-full sm:flex-wrap sm:justify-center sm:text-center sm:items-center sm:pr-12 xm:w-auto xm:flex-wrap xm:justify-center xm:text-center xm:items-center"
+      >
+        <div
+          class="w-64 mr-4 md:w-48 md:mr-4 sm:mr-0 sm:w-[1/2] sm:my-4 sm:mx-8 xm:mr-0 xm:w-[1/2] xm:my-4"
+          data-aos="fade-right"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-sine"
+        >
+          <img
+            src="../img/landing/icon.svg"
+            alt=""
+            class="sm:w-18 sm:m-auto xm:w-18 xm:m-auto"
+          />
+          <h4 class="mt-8 font-bold text-2xl md:text-xl xm:text-lg">
+            At School
+          </h4>
+          <p
+            class="w-48 my-6 leading-0 font-mont text-[#544837] sm:text-normal md:w-44 sm:w-64 xm:w-auto xm:text-xs"
+          >
+            Engaging group and distance learning for teachers and students.
+          </p>
+          <a class="text-[#544837] font-bold md:text-sm" href="#">Learn more</a>
+        </div>
+        <div
+          class="w-64 mr-16 md:w-48 md:mr-4 sm:mr-0 sm:w-[1/2] sm:my-4 sm:mx-8 xm:mr-0 xm:w-[1/2] xm:my-4"
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-easing="ease-in-sine"
+        >
+          <img
+            src="../img/landing/icon2.svg"
+            alt=""
+            class="sm:w-18 sm:m-auto xm:w-18 xm:m-auto"
+          />
+          <h4 class="mt-8 font-bold text-2xl md:text-xl xm:text-lg">At work</h4>
+          <p
+            class="w-60 my-6 leading-0 font-mont font-xs text-[#544837] sm:text-normal xm-w-auto xm:text-xs"
+          >
+            For training, e-learning, interactive presentations and more.
+          </p>
+          <a class="text-[#544837] font-bold md:text-sm" href="#">Learn more</a>
+        </div>
+        <div
+          class="w-64 mr-6 md:w-48 md:mr-4 sm:mr-0 sm:w-[1/2] sm:my-4 sm:mx-8 xm:mr-0 xm-w-auto xm:my-4"
+          data-aos="fade-right"
+          data-aos-delay="700"
+          data-aos-easing="ease-in-sine"
+        >
+          <div
+            class="flex justify-center bg-[#3CC5FF] w-12 h-12 rounded-[1.1875rem] sm:m-auto xm:m-auto"
+          >
+            <img
+              class="bg-[#3CC5FF] w-[1.5625rem] rounded-[1.1875rem] sm:w-18 xm:w-18"
+              src="../img/landing/Sofa.svg"
+              alt=""
+            />
+          </div>
+          <h4 class="mt-8 font-bold text-2xl xm:text-lg">At home</h4>
+          <p
+            class="w-48 my-6 leading-0 font-mont text-[#544837] sm:text-normal sm:w-64 xm:w-64 xm:text-xs"
+          >
+            Apps and games for family fun or home study.
+          </p>
+          <a class="text-[#544837] font-bold" href="#">Learn more</a>
+        </div>
+        <div
+          class="mr-[4rem] md:mr-4 sm:mr-0 sm:w-[1/2] sm:my-4 sm:mx-8 xm:mr-0 xm-w-auto xm:my-4"
+          data-aos="fade-right"
+          data-aos-delay="900"
+          data-aos-easing="ease-in-sine"
+        >
+          <div
+            class="flex justify-center bg-[#FF3B53] w-12 h-12 rounded-[1.1875rem] sm:m-auto xm:m-auto"
+          >
+            <img
+              class="w-[1.5625rem] rounded-[1.1875rem] sm:w-18 xm:w-18"
+              src="../img/landing/mobile.svg"
+              alt=""
+            />
+          </div>
+
+          <h4 class="mt-8 font-bold text-2xl sm:w-64 xm:text-lg xm:w-64">
+            At apps
+          </h4>
+          <p
+            class="w-48 my-6 leading-0 font-mont font-xs text-[#544837] sm:text-normal sm:w-64 xm:w-64 xm:text-xs"
+          >
+            Engage kids with the Kahoot! family of learning apps
+          </p>
+          <a class="text-[#544837] font-bold md:tex" href="#">Learn more</a>
+        </div>
+      </div>
+      <div
+        class="justify-center text-center mt-10 py-12 xm:mt-4"
+        data-aos="fade-up"
+        data-aos-delay="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <button
+          class="font-bold text-white bg-blue-700 hover:bg-blue-500 w-auto p-2 rounded xm:text-sm"
+        >
+          SIGN UP NOW
+        </button>
+      </div>
+    </section>
+
+    <!--Yellow Part-->
+    <section
+      id="yellow-part"
+      class="h-screen bg-[#FFC43B] flex justify-center items-center sm:h-[40vh] xm:h-[40vh]"
+      data-aos="fade-up"
+      data-aos-delay="500"
+      data-aos-easing="ease-in-sine"
+    >
+      <div class="w-max">
+        <div class="flex">
+          <img
+            class="mr-4 xm:w-[35px]"
+            src="../img/landing/Logowhitelogo.png"
+            alt=""
+          />
+          <h1 class="font-vibur text-white text-5xl xm:text-4xl">
+            Kurtis Classroom
+          </h1>
+        </div>
+        <div class="flex justify-center relative">
+          <input
+            class="mt-12 w-64 h-12 text-left pl-6 font- font-bold rounded-full xm:text-xs xm:w-52 xm:mt-4"
+            type="text"
+            placeholder="Write the code here"
+          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            class="w-8 h-8 text-[#979797] inline-block absolute top-[58%] left-[73%] xm:w-6 xm:h-6 xm:top-[47%] xm:left-[74%]"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+            />
+          </svg>
+        </div>
+        <p class="text-center text-[#979797] pt-2 xm:text-base">
+          Or try with 1234
+        </p>
+      </div>
+    </section>
+    <!--Features-->
+    <section id="features" class="h-max">
+      <div
+        class="flex justify-center mt-10 h-max sm:flex-col sm:text-center xm:flex-col xm:text-center"
+        data-aos="fade-down"
+        data-aos-delay="500"
+        data-aos-easing="ease-in-sine"
+      >
+        <h1
+          class="font-mont font-thin text-3xl mr-4 pt-1 sm:text-4xl xm:pt-2 xm:text-lg"
+        >
+          Still More?
+        </h1>
+        <h1
+          class="text-blue-700 text-3xl font-bold font-mont underline underline-offset-4 decoration-solid decoration-2 md:text-2xl md:pt-1 sm:text-4xl sm:mt-4 xm:pt-2 xm:text-lg"
+        >
+          Take a look to our features games
+        </h1>
+      </div>
+      <div class="mt-20">
+        <h1
+          class="justify-center text-center pt-10 font-bold font-mont text-[2.25rem] text-[#544837] md:text-[1.75rem] sm:text-[1.6rem]xm:text-[1.6rem]"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
+          How does Kurtis work?
+        </h1>
+        <div
+          class="flex justify-center m-auto bg-[#3A5AFF] w-28 h-2 sm:w-28"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        ></div>
+      </div>
+      <div
+        class="flex w-max m-auto mt-20 justify-center sm:flex-col-reverse xm:flex-col-reverse"
+      >
+        <img
+          src="../img/landing/Miroodles Color Compositiondoodle-2.png"
+          alt=""
+          class="w-[32.25rem] md:w-[26rem] sm:w-[23rem] xm:w-[20rem] sm:m-auto xm:m-auto"
+          data-aos="fade-right"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <div
+          class="flex flex-col mx-16 mt-6 md:mx-8 sm:text-center sm:mb-10 xm:mb-10 xm:mx-0"
+          data-aos="fade-left"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-sine"
+        >
+          <h1
+            class="font-bold font-mont text-4xl text-[#544837] sm:text-5xl xm:text-2xl"
+          >
+            Create
+          </h1>
+          <p
+            class="mt-4 text-2xl font-mont tracking-tight w-[24rem] text-[#544837] sm:text-2xl xm:text-lg"
+          >
+            It only takes a minutes to create a learning game or trivia quiz on
+            any topic, in any language
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex w-max m-auto mt-20 justify-center sm:flex-col xm:flex-col"
+      >
+        <div
+          class="flex flex-col mt-16 sm:text-center sm:mb-10 xm:mb-10 xm:text-right"
+          data-aos="fade-right"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-sine"
+        >
+          <h1
+            class="font-bold font-mont text-4xl text-[#544837] sm:text-5xl xm:text-2xl"
+          >
+            Host or share
+          </h1>
+          <p
+            class="mt-4 text-2xl font-mont tracking-tight w-[24rem] text-[#544837] sm:text-2xl xm:text-lg"
+          >
+            Host a live game with questions on a big screen or share a game with
+            remote players
+          </p>
+        </div>
+        <img
+          src="../img/landing/Miroodles Color Compositiondoodle3.png"
+          alt=""
+          class="w-[32.25rem] md:w-[26rem] sm:w-[23rem] sm:m-auto xm:w-[20rem] xm:m-auto"
+          data-aos="fade-left"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-sine"
+        />
+      </div>
+      <div
+        class="flex w-max m-auto mt-20 justify-center sm:flex-col-reverse xm:flex-col-reverse"
+      >
+        <img
+          src="../img/landing/Miroodles Color Compositiondoodle-4.png"
+          alt=""
+          class="w-[32.25rem] sm:w-[23rem] xm:w-[20rem] sm:m-auto xm:m-auto"
+          data-aos="fade-right"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <div
+          class="flex flex-col mx-16 mt-6 sm:text-center sm:mb-10 xm:mb-10 xm:mx-0"
+          data-aos="fade-left"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-sine"
+        >
+          <h1
+            class="font-bold font-mont text-4xl text-[#544837] sm:text-5xl xm:text-2xl"
+          >
+            Play
+          </h1>
+          <p
+            class="mt-4 text-2xl font-mont tracking-tight w-[24rem] text-[#544837] sm:text-2xl xm:text-lg"
+          >
+            Game on! Join a kahoot with a PIN provided by the host and answer
+            questions on your device.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--data-->
+    <section
+      class="flex justify-center w-max m-auto h-max mt-32 sm:flex-wrap sm:w-[100vw] xm:flex-wrap xm:w-[100vw] xm:justify-start"
+    >
+      <div
+        class="flex w-48 mx-8 sm:py-8 sm:w-60 xm:py-8 xm:w-30 xm:flex-col-reverse"
+        data-aos="fade-right"
+        data-aos-delay="700"
+        data-aos-easing="ease-in-sine"
+      >
+        <div class="h-10 w-2 bg-[#3A5AFF] sm:h-14 xm:h-2 xm:w-44 xm:mt-2"></div>
+        <p class="leading-tight pl-1 font-mont font-bold sm:text-xl">
+          More than 50% of US teachers use Kurtis
+        </p>
+      </div>
+      <div
+        class="flex w-48 mx-8 md:mx-2 sm:py-8 sm:w-60 xm:py-8 xm:w-30 xm:flex-col-reverse"
+        data-aos="fade-right"
+        data-aos-delay="500"
+        data-aos-easing="ease-in-sine"
+      >
+        <div class="h-10 w-2 bg-[#3CC5FF] sm:h-14 xm:h-2 xm:w-32 xm:mt-2"></div>
+        <p class="leading-tight pl-1 font-mont font-bold sm:text-xl">
+          Players in more than 200 countries
+        </p>
+      </div>
+      <div
+        class="flex w-52 mx-8 md:mx-2 sm:py-8 sm:w-60 xm:py-8 xm:w-30 xm:flex-col-reverse"
+        data-aos="fade-right"
+        data-aos-delay="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <div class="h-10 w-2 bg-[#FF3B53] sm:h-14 xm:h-2 xm:w-32 xm:mt-2"></div>
+        <p class="leading-tight pl-1 font-mont font-bold sm:text-xl">
+          Over 30 million public games available
+        </p>
+      </div>
+      <div
+        class="flex w-48 mx-8 sm:py-8 sm:w-60 xm:py-8 xm:w-60 xm:flex-col-reverse"
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-easing="ease-in-sine"
+      >
+        <div class="h-10 w-2 bg-[#FFC43B] sm:h-14 xm:h-2 xm:w-48 xm:mt-2"></div>
+        <p class="leading-tight pl-1 font-mont font-bold sm:text-xl">
+          97% of the Fortune 500 use Kurtis
+        </p>
+      </div>
+    </section>
+    <!--Reading for make learning fun!-->
+    <section id="" class="h-max mt-32 w-max m-auto sm:mt-20 xm:mt-10">
+      <div class="flex sm:flex-col xm:flex-col">
+        <img
+          src="../img/landing/Miroodles Color Compositiondoodlelast.png"
+          alt=""
+          class="mr-14 sm:w-[22rem] xm:w-[20rem] sm:m-auto xm:ml-12"
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-easing="ease-in-sine"
+        />
+        <div class="mt-10 w-[33rem] sm:text-center">
+          <h1
+            class="font-mont font-bold text-6xl sm:text-4xl xm:text-2xl xm:ml-2 xm:w-[70%]"
+            data-aos="fade-right"
+            data-aos-delay="100"
+            data-aos-easing="ease-in-sine"
+          >
+            Ready for make learning fun!
+          </h1>
+          <button
+            class="w-60 h-11 mt-10 bg-blue-700 hover:bg-blue-500 font-mont text-white font-bold rounded md:w-48 sm:w-40 xm:ml-2"
+            data-aos="fade-right"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Sign up for free
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <section
+      class="h-max bg-[#3A5AFF] mt-16 border"
+      data-aos="fade-up"
+      data-aos-delay="300"
+      data-aos-easing="ease-in-sine"
+    >
+      <div
+        class="flex justify-center pt-20 sm:flex-wrap sm:text-center sm:py-6 xm:flex-wrap xm:text-center xm:py-6"
+      >
+        <div
+          class="pl-2 w-64 sm:w-[100vw] sm:items-center xm:w-[100vw] xm:items-center"
+        >
+          <img
+            src="../img/landing/Group 50.svg"
+            alt=""
+            class="sm:m-auto xm:m-auto"
+          />
+          <p class="mt-10 font-mont font-bold text-white pl-2 text-xs">
+            Get the app:
+          </p>
+          <div
+            class="flex flex-wrap sm:justify-center sm:mt-6 xm:justify-center xm:mt-6"
+          >
+            <img
+              class="p-1"
+              src="../img/landing/Old landingsmalllogo1.png"
+              alt=""
+            />
+            <img
+              class="p-1"
+              src="../img/landing/Old landingsmalllogo2.png"
+              alt=""
+            />
+            <img
+              class="p-1"
+              src="../img/landing/Old landingsmalllogo3.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <p class="mt-6 pb-2 px-2 font-mont font-bold text-white text-xs">
+              Follow us:
+            </p>
+            <div class="flex px-2 sm:justify-center xm:justify-center">
+              <img class="pr-2" src="../img/landing/Group 21.svg" alt="" />
+              <img class="pr-2" src="../img/landing/Group 22.svg" alt="" />
+              <img class="pr-2" src="../img/landing/Groupig.png" alt="" />
+              <img class="pr-2" src="../img/landing/Group.svg" alt="" />
+              <img class="pr-2" src="../img/landing/Group 23.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="w-40 sm:pt-10 xm:pt-10">
+          <h1 class="pl-8 pt-2 font-bold font-mont text-white sm:pl-0 xm:pl-0">
+            About
+          </h1>
+          <ul class="p-8">
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Company</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Leadership</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Jobs - HIRING!</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Press</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Investors</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="w-40 sm:pt-10 xm:pt-10">
+          <h1 class="pl-8 pt-2 font-bold font-mont text-white sm:pl-0 xm:pl-0">
+            Solutions
+          </h1>
+          <ul class="p-8">
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >At School</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >At Work</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Home</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="w-40 sm:pt-10 xm:pt-10">
+          <h1 class="pl-8 pt-2 font-bold font-mont text-white sm:pl-0 xm:pl-0">
+            Resources
+          </h1>
+          <ul class="p-8">
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Study with Kurtis</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Kurtis Certified</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Help Center</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Library</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Shop</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Safety center</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="w-max sm:pt-5 sm:w-[100vw]">
+          <h1 class="pl-8 pt-2 font-bold font-mont text-white sm:pl-0 xm:pl-0">
+            Terms and conditions
+          </h1>
+          <ul class="p-8">
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Terms and Conditions</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >US Privacy Laws</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Children's Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-sm text-white leading-loose hover:text-[#020617] hover:underline"
+                href=""
+                >Inclusion and Accessability policy</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="w-[80vw] m-auto text-start pl-2 pb-10 md:ml-2 sm:ml-0 sm:w-[100vw] sm:text-center xm:ml-0 xm:w-[100vw] xm:text-center"
+      >
+        <p class="px-4 pb-4 text-white">
+          Copyright @ 2020, Kurtis All rights reserved.
+        </p>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
